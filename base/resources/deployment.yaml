@@ -47,11 +47,11 @@ spec:
           resources:
             limits:
               limits:
-              cpu: 400m
-              memory: 32Mi
-            requests:
-              cpu: 200m
+              cpu: 100m
               memory: 64Mi
+            requests:
+              cpu: 50m
+              memory: 32Mi
       volumes:
         - name: champ-user-consumer-configmap-file
           configMap:
