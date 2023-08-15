@@ -48,10 +48,10 @@ spec:
             limits:
               limits:
               cpu: 400m
-              memory: 512Mi
+              memory: 32Mi
             requests:
               cpu: 200m
-              memory: 512Mi
+              memory: 64Mi
       volumes:
         - name: champ-user-consumer-configmap-file
           configMap:
